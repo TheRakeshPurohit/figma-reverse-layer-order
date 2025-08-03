@@ -9,7 +9,7 @@ Select 2 or more layers within the same parent.
 
 ## License
 
-© 2019 Mike Gowen
+© 2025 Mike Gowen
 
 MIT License
 
