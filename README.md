@@ -1,33 +1,28 @@
-Figma plugin: Reverse Layer Order
-=================
+# Figma plugin: Reverse Layer Order
 
-Figma plugin to reverse the order of the selected layers.
+A Figma plugin that reverses the stacking order of selected layers within their parent container.
+
+## Installation
+
+1. Clone this repository
+2. Run `tsc` to compile TypeScript (or configure your build process)
+3. In Figma, go to Plugins → Development → Import plugin from manifest
+4. Select the `manifest.json` file
+
+## Development
+
+1. Make changes to `code.ts`
+2. Run `tsc` to compile to `code.js`
+3. Reload the plugin in Figma after making changes
 
 ## Usage
 
-Select 2 or more layers within the same parent.
+1. Select 2 or more layers within the same parent container
+2. Run the "Reverse Layer Order" plugin
+3. The selected layers will be reordered in reverse stacking order
 
 ## License
 
 © 2025 Mike Gowen
 
 MIT License
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
